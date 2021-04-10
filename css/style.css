@@ -1,0 +1,112 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.continer{
+	width: 1140px;
+	margin: 0 auto;
+}
+body{
+	background: url(../img/bg.jpg)no-repeat;
+	background-size: cover;
+	font-family: 'Montserrat', sans-serif;
+}
+.project{
+	width: 100%;
+	float: left;
+}
+/* tittle section */
+.title{
+	width: 60%;
+	float: left;
+	padding: 100px 0px;
+}
+.title h1{
+	color: white;
+    font-size: 43px;
+    text-transform: uppercase;
+}
+.title h1 span{
+	color: green;
+}
+.title h2{
+	color: white;
+    font-size: 41px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.title p{
+	color: white;
+    font-size: 22px;
+    font-weight: 200;
+    padding: 11px 0px;
+}
+.title ul{
+	list-style: none;
+}
+.title ul li{
+	margin: 10px 0px;
+    color: white;
+    display: inherit;
+}
+.title ul li i{
+	font-size: 20px;
+}
+.title-btn{
+	padding: 7px 17px;
+    font-size: 15px;
+    color: white;
+    background: #2396F0;
+    border-radius: 36px;
+    text-transform: uppercase;
+}
+/* reg section */
+.reg{
+	width: 40%;
+    float: left;
+    background: #2196F3;
+    margin: 116px 0px;
+    border-radius: 4%;
+}
+.reg h3{
+	color: white;
+    text-align: center;
+    font-size: 32px;
+    padding: 5px 0px;
+}
+.reg p{
+	color: white;
+    text-align: center;
+    padding: 3px 0px;
+    font-size: 20px;
+}
+.reg form{
+	margin: 24px 12px;
+    padding: 22px 0px;
+}
+.reg input{
+	font-size: 20px;
+    width: 426px;
+    padding: 3px 0px;
+    margin: 2px 0px;
+    text-transform: capitalize;
+}
+.reg-btn{
+	margin: 0 auto;
+    display: block;
+    width: 20%;
+    padding: 1%;
+    text-transform: uppercase;
+    color: white;
+    background: #673BB6;
+    border: none;
+    transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    -webkit-transition: 0.4s ease-in-out;
+
+}
+.reg-btn:hover{
+	cursor: pointer;
+	box-shadow: 4px 3px 4px 2px #c5aca4e8;
+}
